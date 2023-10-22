@@ -26,9 +26,17 @@ h2 {
 }
 
 #start {
-    text-align: center;
-    font-size: 30px;
-}
+  text-align: center;
+  font-size: 30px;
+  color: rgb(50, 59, 16);
+  -webkit-text-stroke: 1px rgb(153, 172, 154);
+  font-size: 32px;
+  display: flex;
+  display:block; margin: 0 auto;
+  justify-content: center;
+  border-radius: 1%;
+  background-color: rgb(208, 226, 210);
+ }
 
 #timer{
     color: white;
@@ -40,7 +48,9 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  /*cursor: url('./assets/mallet.png'), pointer;*/
+  cursor: url('../assets/mallet.png'), pointer;
+  margin-bottom: 10px;
+  justify-content: fill;
 }
 
 .hole {
