@@ -1,7 +1,7 @@
 html {
-  /*background: url('./assets/background.png') no-repeat center center fixed;*/
-  background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
-  box-sizing: border-box;
+   background: url('../assets/background1.png') no-repeat center center fixed;
+   background-size: cover;
+   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,7 @@ html {
 h1 {
   text-align: center;
   font-size: 90px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "GUMDROP", "Comic Sans";
   color: white;
   -webkit-text-stroke: 2px black;
 }
@@ -28,18 +28,18 @@ h2 {
 #start {
   text-align: center;
   font-size: 30px;
-  color: rgb(50, 59, 16);
-  -webkit-text-stroke: 1px rgb(153, 172, 154);
-  font-size: 32px;
+  color: rgb(245, 246, 243);
+  -webkit-text-stroke: 1px rgb(221, 233, 221);
+  font-size: 34px;
   display: flex;
   display:block; margin: 0 auto;
   justify-content: center;
   border-radius: 1%;
-  background-color: rgb(208, 226, 210);
+  background-color: rgb(23, 141, 37);
  }
 
 #timer{
-    color: white;
+    color: white(218, 213, 213);
 }
 
 .grid {
