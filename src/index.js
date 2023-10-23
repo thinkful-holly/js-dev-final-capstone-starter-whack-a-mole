@@ -305,6 +305,24 @@ function startGame() {
 // Add an event listener to the startButton
 startButton.addEventListener('click', startGame);
 
+// audio
+function playAudio(audioObject) {
+  audioObject.play();
+}
+
+function loopAudio(audioObject) {
+  audioObject.loop = true;
+  playAudio(audioObject);
+}
+
+function stopAudio(audioObject) {
+  audioObject.pause();
+}
+
+function play(){
+  playAudio(song);
+}
+
 
 // Please do not modify the code below.
 // Used for testing purposes.
